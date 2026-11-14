@@ -1,6 +1,6 @@
 // Set this to your deployed API Gateway URL after running `cdk deploy`
 // Example: 'https://abc123.execute-api.us-east-1.amazonaws.com'
-export const API_BASE_URL = '';
+export const API_BASE_URL = 'https://mx5ul6p3a0.execute-api.us-east-1.amazonaws.com';
 
 export async function postEvent(eventType, entityId) {
   if (!API_BASE_URL) return null;
