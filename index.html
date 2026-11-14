@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Healthy Food Guide</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <nav aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#home">🥗 Healthy Food Guide</a>
+      <a href="#diabetes">Diabetes</a>
+      <a href="#heart-disease">Heart Disease</a>
+      <a href="#obesity">Obesity</a>
+      <a href="#hypertension">Hypertension</a>
+    </div>
+  </nav>
+
+  <div class="disclaimer" role="note">
+    <strong>Educational disclaimer:</strong> Information on this site is for educational purposes only and is not personal medical advice.
+    Please consult a qualified healthcare provider about your individual dietary needs.
+  </div>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="section" aria-labelledby="home-title">
+      <h1 id="home-title">Healthy Food Guide</h1>
+      <p>Evidence-based nutrition information and affordable recipes for managing chronic diseases.</p>
+      <div class="disease-grid">
+        <a href="#diabetes" class="disease-card">
+          <h3>Diabetes</h3>
+          <p>Foods and recipes to help manage blood sugar levels.</p>
+        </a>
+        <a href="#heart-disease" class="disease-card">
+          <h3>Heart Disease</h3>
+          <p>Heart-healthy foods and recipes to support cardiovascular health.</p>
+        </a>
+        <a href="#obesity" class="disease-card">
+          <h3>Obesity</h3>
+          <p>Nutrient-dense, satisfying foods to support a healthy weight.</p>
+        </a>
+        <a href="#hypertension" class="disease-card">
+          <h3>Hypertension</h3>
+          <p>Low-sodium foods and DASH diet recipes to manage blood pressure.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- DISEASE SECTIONS (content loaded dynamically) -->
+    <section id="diabetes" class="section" aria-label="Diabetes" hidden></section>
+    <section id="heart-disease" class="section" aria-label="Heart Disease" hidden></section>
+    <section id="obesity" class="section" aria-label="Obesity" hidden></section>
+    <section id="hypertension" class="section" aria-label="Hypertension" hidden></section>
+  </main>
+
+  <footer>
+    <p>Healthy Food Guide &mdash; Educational project. Not medical advice.</p>
+  </footer>
+
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

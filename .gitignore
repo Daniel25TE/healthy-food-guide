@@ -1,0 +1,14 @@
+# CDK
+infrastructure/node_modules/
+infrastructure/cdk.out/
+infrastructure/*.js
+infrastructure/*.d.ts
+infrastructure/bin/*.js
+infrastructure/lib/*.js
+
+# Lambda dependencies (if any are added locally)
+lambda/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db

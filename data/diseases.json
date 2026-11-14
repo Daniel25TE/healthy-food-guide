@@ -1,0 +1,6 @@
+[
+  {"id": "diabetes", "name": "Diabetes"},
+  {"id": "heart-disease", "name": "Heart Disease"},
+  {"id": "obesity", "name": "Obesity"},
+  {"id": "hypertension", "name": "Hypertension"}
+]
