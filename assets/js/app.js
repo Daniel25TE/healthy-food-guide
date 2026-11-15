@@ -24,10 +24,6 @@ async function loadDisease(id) {
   }
 }
 
-function nutriValue(val) {
-  return val === null || val === undefined ? 'N/A' : val;
-}
-
 function renderNutritionRow(label, value, unit) {
   if (value === null || value === undefined) {
     return `<tr><td>${label}</td><td>Not available</td></tr>`;
@@ -43,26 +39,19 @@ function renderFoods(foods) {
         <thead>
           <tr>
             <th>Food</th>
-            <th>Serving</th>
-            <th>Calories</th>
-            <th>Carbs (g)</th>
-            <th>Protein (g)</th>
-            <th>Fat (g)</th>
-            <th>Fiber (g)</th>
-            <th>Sodium (mg)</th>
+            <th>Serving Size</th>
+            <th>Frequency</th>
+            <th>Notes</th>
           </tr>
         </thead>
         <tbody>
           ${foods.map(f => `
             <tr>
-              <td><strong>${f.name}</strong>${f.notes ? `<br><small>${f.notes}</small>` : ''}</td>
-              <td>${f.serving || 'N/A'}</td>
-              <td>${nutriValue(f.nutritionPerServing?.calories)}</td>
+              <td><strong>${f.name}</strong></td>
+              <td>${f.serving || '—'}</td>
+              <td>${f.frequency || '—'}</td>
+              <td>${f.notes || '—'}</td>
               <td>${nutriValue(f.nutritionPerServing?.carbohydratesGrams)}</td>
-              <td>${nutriValue(f.nutritionPerServing?.proteinGrams)}</td>
-              <td>${nutriValue(f.nutritionPerServing?.fatGrams)}</td>
-              <td>${nutriValue(f.nutritionPerServing?.fiberGrams)}</td>
-              <td>${nutriValue(f.nutritionPerServing?.sodiumMilligrams)}</td>
             </tr>
           `).join('')}
         </tbody>

@@ -70,14 +70,23 @@ main { max-width: 900px; margin: 0 auto; padding: 1.5rem 1rem; }
 
 .section { }
 
-#home h1 { font-size: 1.75rem; color: var(--green); margin-bottom: 0.5rem; }
-#home p { color: var(--text-muted); margin-bottom: 1rem; }
+#home h1 { font-size: 1.75rem; color: var(--green); margin-bottom: 0.75rem; }
+.home-intro { color: var(--text-muted); margin-bottom: 0.5rem; line-height: 1.7; }
 .disease-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
   margin-top: 1.5rem;
 }
+.home-sources {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+.home-sources h2 { font-size: 1rem; color: var(--text-muted); margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.home-sources ul { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+.home-sources li { font-size: 0.85rem; color: var(--text-muted); }
+.home-sources a { color: var(--green); }
 .disease-card {
   background: #fff;
   border: 1px solid var(--border);
@@ -89,8 +98,8 @@ main { max-width: 900px; margin: 0 auto; padding: 1.5rem 1rem; }
   display: block;
 }
 .disease-card:hover, .disease-card:focus { box-shadow: var(--shadow); transform: translateY(-2px); }
-.disease-card h3 { color: var(--green); margin-bottom: 0.25rem; }
-.disease-card p { font-size: 0.875rem; color: var(--text-muted); }
+.disease-card h3 { color: var(--green); margin-bottom: 0.5rem; }
+.disease-card p { font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; }
 
 /* SECTION CONTENT */
 .section h2 { font-size: 1.5rem; color: var(--green); margin-bottom: 1rem; }
