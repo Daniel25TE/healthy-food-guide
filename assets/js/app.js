@@ -51,7 +51,6 @@ function renderFoods(foods) {
               <td>${f.serving || '—'}</td>
               <td>${f.frequency || '—'}</td>
               <td>${f.notes || '—'}</td>
-              <td>${nutriValue(f.nutritionPerServing?.carbohydratesGrams)}</td>
             </tr>
           `).join('')}
         </tbody>
@@ -219,7 +218,9 @@ async function renderDisease(id) {
     const h3 = document.createElement('h3');
     h3.textContent = 'Recommended Foods';
     foodsSection.appendChild(h3);
-    foodsSection.innerHTML += renderFoods(data.foods);
+    const foodsHtml = document.createElement('div');
+    foodsHtml.innerHTML = renderFoods(data.foods);
+    foodsSection.appendChild(foodsHtml);
     section.appendChild(foodsSection);
   }
 
