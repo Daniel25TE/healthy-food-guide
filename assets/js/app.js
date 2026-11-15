@@ -49,10 +49,10 @@ function renderFoods(foods) {
           ${foods.map(f => `
             <tr>
               <td><strong>${f.name}</strong></td>
-              <td>${f.serving || '—'}</td>
-              <td>${f.frequency || '—'}</td>
-              <td><em>${f.why || '—'}</em></td>
-              <td>${f.notes || '—'}</td>
+              <td data-label="Serving">${f.serving || '—'}</td>
+              <td data-label="Frequency">${f.frequency || '—'}</td>
+              <td data-label="Why?"><em>${f.why || '—'}</em></td>
+              <td data-label="Notes">${f.notes || '—'}</td>
             </tr>
           `).join('')}
         </tbody>
@@ -171,12 +171,25 @@ async function renderDisease(id) {
   section.appendChild(h2);
 
   if (data.overview) {
-    const overview = document.createElement('div');
-    overview.className = 'overview';
+    const card = document.createElement('div');
+    card.className = 'collapsible-card';
+    const toggle = document.createElement('button');
+    toggle.className = 'collapsible-toggle';
+    toggle.setAttribute('aria-expanded', 'true');
+    toggle.textContent = 'Overview';
+    const body = document.createElement('div');
+    body.className = 'collapsible-body';
     const p = document.createElement('p');
     p.textContent = data.overview;
-    overview.appendChild(p);
-    section.appendChild(overview);
+    body.appendChild(p);
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      body.hidden = expanded;
+    });
+    card.appendChild(toggle);
+    card.appendChild(body);
+    section.appendChild(card);
   }
 
   if (data.nutritionGuidance?.length) {
@@ -186,14 +199,18 @@ async function renderDisease(id) {
     h3.textContent = 'Nutrition Guidance';
     guidanceSection.appendChild(h3);
     for (const g of data.nutritionGuidance) {
-      const item = document.createElement('div');
-      item.className = 'guidance-item';
-      const title = document.createElement('h4');
-      title.textContent = g.title;
+      const card = document.createElement('div');
+      card.className = 'collapsible-card';
+      const toggle = document.createElement('button');
+      toggle.className = 'collapsible-toggle';
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.textContent = g.title;
+      const body = document.createElement('div');
+      body.className = 'collapsible-body';
+      body.hidden = true;
       const content = document.createElement('p');
       content.textContent = g.content;
-      item.appendChild(title);
-      item.appendChild(content);
+      body.appendChild(content);
       if (g.sources?.length) {
         const src = document.createElement('p');
         src.className = 'sources';
@@ -207,9 +224,16 @@ async function renderDisease(id) {
           src.appendChild(a);
           if (i < g.sources.length - 1) src.appendChild(document.createTextNode(', '));
         });
-        item.appendChild(src);
+        body.appendChild(src);
       }
-      guidanceSection.appendChild(item);
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        body.hidden = expanded;
+      });
+      card.appendChild(toggle);
+      card.appendChild(body);
+      guidanceSection.appendChild(card);
     }
     section.appendChild(guidanceSection);
   }
@@ -263,3 +287,19 @@ async function navigate() {
 
 window.addEventListener('hashchange', navigate);
 window.addEventListener('load', navigate);
+
+// Hamburger nav toggle
+const hamburgerBtn = document.querySelector('.nav-hamburger');
+const navLinks = document.querySelector('.nav-links');
+if (hamburgerBtn && navLinks) {
+  hamburgerBtn.addEventListener('click', () => {
+    const open = navLinks.classList.toggle('open');
+    hamburgerBtn.setAttribute('aria-expanded', String(open));
+  });
+  navLinks.addEventListener('click', e => {
+    if (e.target.tagName === 'A') {
+      navLinks.classList.remove('open');
+      hamburgerBtn.setAttribute('aria-expanded', 'false');
+    }
+  });
+}
