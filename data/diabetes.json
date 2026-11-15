@@ -1,1 +1,268 @@
-{"id":"diabetes","name":"Diabetes","overview":"TODO: Add overview content here.","nutritionGuidance":[{"title":"TODO: Guidance title","content":"TODO: Add evidence-based nutrition guidance here.","sources":[{"label":"TODO: Source name","url":"https://example.org"}]}],"foods":[{"id":"placeholder-food","name":"TODO: Food name","serving":"TODO: e.g. 1 cup","nutritionPerServing":{"calories":null,"carbohydratesGrams":null,"proteinGrams":null,"fatGrams":null,"saturatedFatGrams":null,"fiberGrams":null,"sodiumMilligrams":null},"notes":"TODO: Add notes about this food.","sources":[]}],"recipes":[{"id":"placeholder-recipe","title":"TODO: Recipe title","description":"TODO: Recipe description.","servings":4,"prepMinutes":15,"cookMinutes":30,"ingredients":[{"foodId":null,"name":"TODO: Ingredient name","quantity":"TODO: e.g. 1 cup"}],"instructions":["TODO: Step 1.","TODO: Step 2."],"nutritionPerServing":{"calories":null,"carbohydratesGrams":null,"proteinGrams":null,"fatGrams":null,"saturatedFatGrams":null,"fiberGrams":null,"sodiumMilligrams":null},"sources":[]}]}
+{
+  "id": "diabetes",
+  "name": "Diabetes",
+  "overview": "Type 2 diabetes is closely linked to cardiovascular disease — about one-third of people presenting with heart disease also have diabetes, which is frequently unknown at the time of initial diagnosis. Diabetes significantly increases the risk of coronary artery disease, heart failure, stroke, atrial fibrillation, and peripheral arterial disease. Obesity is a major contributor to type 2 diabetes, and diabetes is a leading cause of chronic kidney disease. The construct of cardiovascular-kidney-metabolic syndrome underscores the bidirectional interplay among these conditions, which substantially increases overall cardiovascular mortality.\n\nDietary carbohydrate intake is a key determinant of blood sugar (glycemic) control. Both the quantity and quality of carbohydrates matter. Systematic reviews and meta-analyses consistently show that lower-carbohydrate dietary patterns improve glycemic control in people with diabetes. Reducing the glycemic index and glycemic load of meals — by choosing whole grains over refined grains and including fiber-rich foods — further improves blood sugar control. A systematic review and meta-analysis found that low glycemic index and glycemic load diets reduced hemoglobin A1c by 0.31% (95% CI: −0.42 to −0.19%) compared with higher glycemic index and glycemic load diets among individuals with diabetes.\n\nThe Mediterranean diet has the strongest evidence for diabetes prevention. A large systematic review and dose-response meta-analysis of 24 prospective cohort studies and 1 randomized controlled trial — with 991,878 participants and 68,325 type 2 diabetes cases over a mean follow-up of 12.2 years — found that greater adherence to the Mediterranean diet was associated with an 8% lower risk of developing type 2 diabetes (HR: 0.92; 95% CI: 0.90–0.94; moderate certainty evidence). The landmark PREDIMED randomized trial confirmed that a Mediterranean diet supplemented with extra-virgin olive oil or nuts significantly reduced the incidence of type 2 diabetes compared with a low-fat control diet. The 2026 ACC Scientific Statement affirms that plant-forward dietary patterns are supported by strong evidence for prevention and management of type 2 diabetes.",
+  "nutritionGuidance": [
+    {
+      "title": "Follow a Mediterranean or Low-Carbohydrate Dietary Pattern",
+      "content": "The Mediterranean diet is associated with an 8% lower risk of type 2 diabetes in large population studies (HR: 0.92; 95% CI: 0.90–0.94), based on a meta-analysis of over 991,000 participants. It emphasizes plant-forward eating — high intake of olive oil, vegetables, fruits, legumes, nuts, and whole grains, with moderate fish and poultry and low red meat and sweets. For people already living with diabetes, low-carbohydrate dietary patterns are an effective option for improving glycemic control. When a low-carbohydrate diet is adopted, the 2026 ACC Scientific Statement recommends placing emphasis on plant-based protein sources and unsaturated fats to support overall cardiometabolic health, rather than relying on animal protein and saturated fat to replace carbohydrates.",
+      "sources": [
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        },
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    },
+    {
+      "title": "Choose High-Fiber, Low-Glycemic Carbohydrates",
+      "content": "Dietary fiber helps regulate blood sugar by slowing glucose absorption and reducing glycemic response. Only 6% of Americans meet fiber recommendations — 25 g/day for women and 38 g/day for men — with average intake at only 15–17 g/day. Choosing high-fiber carbohydrate foods over refined grains and added sugars is associated with better blood sugar control. Low glycemic index and glycemic load diets reduced hemoglobin A1c by 0.31% compared with higher glycemic index diets in people with diabetes. High-fiber foods to emphasize include: whole grains (oats, barley, quinoa, brown rice, whole wheat), legumes (lentils, chickpeas, black beans), non-starchy vegetables (spinach, broccoli, bell peppers), and fruits. These foods should replace refined grains (white bread, white rice, white pasta) and foods with added sugars.",
+      "sources": [
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    },
+    {
+      "title": "Prioritize Plant Protein Over Red and Processed Meats",
+      "content": "Higher intake of plant protein — from legumes, whole grains, nuts, and seeds — is associated with more favorable cardiometabolic outcomes than animal protein. These plant-based protein foods provide fiber, unsaturated fatty acids, and phytochemicals that reduce LDL cholesterol, improve insulin sensitivity, and lower inflammation. Large prospective studies show that higher intake of red and processed meats is associated with increased risk of type 2 diabetes, cardiovascular disease, and all-cause mortality, while plant protein intake is associated with reduced risk. Processed meats in particular contain sodium and nitrates associated with insulin resistance. The Mediterranean diet recommends red meat no more than once per week (3 oz, lean cuts), while legumes should be eaten 3 times per week (½ cup per serving).",
+      "sources": [
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        },
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    },
+    {
+      "title": "Use Extra-Virgin Olive Oil as the Primary Fat",
+      "content": "The Mediterranean diet recommends 1–4 tablespoons of extra-virgin olive oil (EVOO) daily as the primary cooking and table fat, replacing butter, sour cream, and mayonnaise. EVOO provides better healthy fat ratios and higher antioxidant content than regular olive oil due to its manufacturing process. In the PREDIMED randomized trial, a Mediterranean diet enriched with EVOO significantly reduced the incidence of type 2 diabetes compared with a low-fat control diet. Dietary patterns with higher unsaturated to saturated fat ratios promote healthy blood sugar levels. EVOO can be drizzled on salads, vegetables, and pasta, or used as a dip for whole-grain bread instead of butter.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    },
+    {
+      "title": "Limit Added Sugars and Sugar-Sweetened Beverages",
+      "content": "Added sugars — especially sugar-sweetened beverages (SSBs) — are consistently associated with higher risk of obesity, diabetes, and cardiovascular disease. The 2026 ACC Scientific Statement notes that replacing saturated fat with carbohydrates from refined starches and added sugars is not associated with lower heart disease risk, and that added sugars should be specifically limited. The Mediterranean diet explicitly avoids foods with added sugar including bakery goods, ice cream, and granola bars, and SSBs such as fruit juices and sodas. Water and unsweetened beverages are the preferred choices. The 2026 ACC Scientific Statement also notes that evidence on non-nutritive sweeteners is inconclusive and they are not recommended as a long-term substitute — water remains the best option.",
+      "sources": [
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        },
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    }
+  ],
+  "foods": [
+    {
+      "id": "extra-virgin-olive-oil",
+      "name": "Extra-Virgin Olive Oil",
+      "serving": "1 tablespoon",
+      "frequency": "1–4 servings daily",
+      "notes": "Use as the primary cooking and table fat in place of butter, margarine, or sour cream. EVOO provides better healthy fat ratios and higher antioxidant content than regular olive oil. In the PREDIMED trial, a Mediterranean diet enriched with EVOO significantly reduced the incidence of type 2 diabetes.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    },
+    {
+      "id": "oats",
+      "name": "Oats (Whole Grain)",
+      "serving": "½ cup cooked",
+      "frequency": "Part of 3–6 daily whole-grain servings",
+      "notes": "Whole grains including oats are rich in fiber, vitamins, minerals, and other bioactive compounds. Consistent evidence from large cohort studies and randomized trials shows higher consumption of whole grains is associated with lower risk of obesity, diabetes, and cardiovascular disease. Choose steel-cut or rolled oats over instant varieties for lower glycemic impact.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    },
+    {
+      "id": "lentils",
+      "name": "Lentils",
+      "serving": "½ cup cooked",
+      "frequency": "3 servings of legumes per week",
+      "notes": "Legumes including lentils are a cornerstone of the Mediterranean diet. They provide plant-based protein, high amounts of dietary fiber, and a low glycemic index — all beneficial for blood sugar control. The 2026 ACC Scientific Statement highlights legumes as among the best sources of fiber and plant protein. Add to salads, soups, and pasta dishes.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    },
+    {
+      "id": "chickpeas",
+      "name": "Chickpeas",
+      "serving": "½ cup cooked",
+      "frequency": "3 servings of legumes per week",
+      "notes": "Chickpeas are a versatile Mediterranean diet staple providing high fiber and plant protein. They can be used in hummus, added to salads, or served as a main dish alongside vegetables. Cleveland Clinic sample meals include hummus (made from chickpeas) and chickpea-based dishes. Legumes count toward the 3 weekly legume servings recommended by the Mediterranean diet.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    },
+    {
+      "id": "salmon",
+      "name": "Salmon",
+      "serving": "3–4 oz",
+      "frequency": "3 servings of fish per week",
+      "notes": "Salmon is one of the omega-3-rich fish specifically recommended by the Cleveland Clinic Mediterranean diet guidance (alongside sardines, herring, tuna, and mackerel). Omega-3 fatty acids (EPA and DHA) have favorable effects on triglyceride levels and inflammation. The 2026 ACC Scientific Statement notes that dietary patterns containing regular fish consumption are associated with modestly lower risks of coronary heart disease and cardiovascular mortality.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    },
+    {
+      "id": "walnuts",
+      "name": "Walnuts",
+      "serving": "¼ cup (about 1 oz)",
+      "frequency": "At least 3 servings of nuts per week",
+      "notes": "Walnuts are specifically listed among the preferred nuts in the Cleveland Clinic Mediterranean diet guidance (alongside almonds and hazelnuts). Choose raw, unsalted, or dry-roasted varieties. Nuts provide unsaturated fats, fiber, and plant protein. The 2026 ACC Scientific Statement identifies nuts and seeds as among the best sources of fiber and healthy unsaturated fats. The PREDIMED trial used nuts as a key component of the Mediterranean diet intervention that reduced type 2 diabetes incidence.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    },
+    {
+      "id": "spinach",
+      "name": "Spinach",
+      "serving": "1 cup raw or ½ cup cooked",
+      "frequency": "At least 3 vegetable servings daily",
+      "notes": "Non-starchy leafy vegetables like spinach are a foundation of both the Mediterranean and DASH diets. They provide fiber, potassium, magnesium, and antioxidants — all nutrients that support blood sugar regulation and cardiovascular health. The Mayo Clinic DASH sample menus feature spinach prominently, including 3-cup servings in salads and ½ cup cooked in pasta dishes. Eat at least one vegetable serving at every meal.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        },
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        }
+      ]
+    },
+    {
+      "id": "quinoa",
+      "name": "Quinoa",
+      "serving": "½ cup cooked",
+      "frequency": "Part of 3–6 daily whole-grain servings",
+      "notes": "Quinoa is a whole grain specifically listed by the Cleveland Clinic Mediterranean diet guidance. It is a complete source of plant protein and provides dietary fiber. The Cleveland Clinic includes toasted quinoa salad with salmon as a sample Mediterranean meal. As a whole grain, quinoa contributes to the daily whole-grain target that supports lower risk of obesity, diabetes, and cardiovascular disease.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "whole-wheat-pasta-squash-spinach",
+      "title": "Whole-Wheat Pasta with Summer Squash and Spinach",
+      "description": "A simple, fiber-rich vegetarian pasta dish from the Mayo Clinic DASH diet sample menus. Whole-wheat pasta provides a lower glycemic index than refined pasta, and the summer squash and spinach add volume, fiber, and nutrients with minimal added calories. This dish fits the Mediterranean diet's emphasis on whole grains, vegetables, and minimally processed foods.",
+      "servings": 1,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "ingredients": [
+        { "foodId": null, "name": "Whole-wheat pasta", "quantity": "1½ cups (dry)" },
+        { "foodId": null, "name": "Marinara sauce (low-sodium)", "quantity": "½ cup" },
+        { "foodId": null, "name": "Summer squash, chopped", "quantity": "1 cup" },
+        { "foodId": "spinach", "name": "Frozen chopped spinach", "quantity": "½ cup" }
+      ],
+      "instructions": [
+        "Bring a pot of water to a boil. Cook whole-wheat pasta according to package directions until al dente. Drain and set aside.",
+        "While pasta cooks, warm marinara sauce in a saucepan over medium heat.",
+        "Add chopped summer squash to the sauce. Simmer 8–10 minutes, stirring occasionally, until squash is tender.",
+        "Stir in frozen chopped spinach and cook 3 more minutes until heated through.",
+        "Toss the drained pasta with the vegetable marinara sauce. Serve immediately."
+      ],
+      "nutritionPerServing": null,
+      "sources": [
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus (Day 2 Dinner)",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        }
+      ]
+    },
+    {
+      "id": "mediterranean-cod-with-lentils",
+      "title": "Mediterranean Cod with Lentils",
+      "description": "A Mediterranean diet dinner recommended by the Cleveland Clinic. Cod is a lean white fish providing protein with low saturated fat, while lentils deliver high dietary fiber and plant protein — both key components for blood sugar management. Extra-virgin olive oil adds heart-healthy monounsaturated fat. This combination embodies the Mediterranean diet's emphasis on fish, legumes, and healthy oils.",
+      "servings": 4,
+      "prepMinutes": 15,
+      "cookMinutes": 30,
+      "ingredients": [
+        { "foodId": "extra-virgin-olive-oil", "name": "Extra-virgin olive oil", "quantity": "2 tablespoons" },
+        { "foodId": null, "name": "Garlic cloves, minced", "quantity": "2 cloves" },
+        { "foodId": "lentils", "name": "Green or brown lentils, rinsed", "quantity": "1½ cups (dry)" },
+        { "foodId": null, "name": "No-salt-added diced tomatoes (canned)", "quantity": "1 can (14 oz)" },
+        { "foodId": null, "name": "Low-sodium vegetable broth", "quantity": "2 cups" },
+        { "foodId": null, "name": "Cod fillets", "quantity": "4 fillets (3–4 oz each)" },
+        { "foodId": null, "name": "Lemon, juice and zest", "quantity": "1 lemon" },
+        { "foodId": null, "name": "Fresh parsley, chopped", "quantity": "2 tablespoons" },
+        { "foodId": null, "name": "Black pepper", "quantity": "To taste" }
+      ],
+      "instructions": [
+        "Heat olive oil in a large, deep skillet or pot over medium heat. Add garlic and cook for 1 minute until fragrant.",
+        "Add rinsed lentils, diced tomatoes (with juice), and vegetable broth. Stir to combine.",
+        "Bring to a boil, then reduce heat to low. Cover and simmer for 20 minutes, stirring occasionally, until lentils are nearly tender.",
+        "While lentils cook, pat cod fillets dry and season with black pepper and lemon zest.",
+        "Place seasoned cod fillets on top of the lentil mixture. Cover and cook for 8–10 minutes until cod is opaque and flakes easily with a fork.",
+        "Remove from heat. Squeeze fresh lemon juice over the entire dish and garnish with chopped parsley.",
+        "Serve each fillet over a portion of lentils."
+      ],
+      "nutritionPerServing": null,
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet (dinner idea: Cod with lentils)",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    }
+  ]
+}

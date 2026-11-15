@@ -93,7 +93,7 @@ function renderRecipe(recipe, diseaseId) {
         ${recipe.instructions.map(s => `<li>${s}</li>`).join('')}
       </ol>
     ` : ''}
-    ${recipe.nutritionPerServing ? `
+    ${recipe.nutritionPerServing && typeof recipe.nutritionPerServing === 'object' ? `
       <h4>Nutrition per serving</h4>
       <table class="nutrition-table">
         <tbody>
