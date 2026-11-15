@@ -1,1 +1,257 @@
-{"id":"obesity","name":"Obesity","overview":"TODO: Add overview content here.","nutritionGuidance":[{"title":"TODO: Guidance title","content":"TODO: Add evidence-based nutrition guidance here.","sources":[{"label":"TODO: Source name","url":"https://example.org"}]}],"foods":[{"id":"placeholder-food","name":"TODO: Food name","serving":"TODO: e.g. 1 cup","nutritionPerServing":{"calories":null,"carbohydratesGrams":null,"proteinGrams":null,"fatGrams":null,"saturatedFatGrams":null,"fiberGrams":null,"sodiumMilligrams":null},"notes":"TODO: Add notes about this food.","sources":[]}],"recipes":[{"id":"placeholder-recipe","title":"TODO: Recipe title","description":"TODO: Recipe description.","servings":4,"prepMinutes":15,"cookMinutes":30,"ingredients":[{"foodId":null,"name":"TODO: Ingredient name","quantity":"TODO: e.g. 1 cup"}],"instructions":["TODO: Step 1.","TODO: Step 2."],"nutritionPerServing":{"calories":null,"carbohydratesGrams":null,"proteinGrams":null,"fatGrams":null,"saturatedFatGrams":null,"fiberGrams":null,"sodiumMilligrams":null},"sources":[]}]}
+{
+  "id": "obesity",
+  "name": "Obesity",
+  "overview": "Obesity is a complex, multifactorial condition defined by excess body fat that substantially increases the risk of type 2 diabetes, cardiovascular disease, hypertension, certain cancers, and chronic kidney disease. The 2026 ACC Scientific Statement identifies obesity as a major amplifier of cardiometabolic risk, noting that it is a leading contributor to type 2 diabetes and that the emerging construct of cardiovascular-kidney-metabolic syndrome — driven in part by obesity — substantially increases overall cardiovascular mortality. Weight management is therefore a cornerstone of preventive care, not only for body weight itself but for the cascade of conditions it drives.\n\nDiet quality is the primary lever for sustainable weight management. The 2026 ACC Scientific Statement states that there is strong evidence supporting plant-forward dietary patterns for prevention and management of overweight and obesity. The Mediterranean diet specifically promotes a healthy weight by prioritizing nutrient-dense, minimally processed, high-fiber foods that promote satiety and reduce total calorie intake without strict calorie counting. Dietary fiber is particularly important — high-fiber foods slow digestion, promote fullness, and help regulate appetite hormones. Yet only 6% of Americans meet the recommended fiber intake of 25 g/day for women and 38 g/day for men, with average intake at just 15–17 g/day.\n\nUltra-processed foods are a key driver of excess calorie consumption and weight gain. A short-term randomized controlled trial demonstrated that diets high in ultra-processed foods increased caloric intake and weight gain independently of macronutrient composition — meaning the degree of food processing matters beyond just calories and macros. The Cleveland Clinic Mediterranean diet explicitly avoids foods with added sugar, sugar-sweetened beverages, refined carbohydrates, and processed meats, while emphasizing whole foods with high fiber and healthy fat content that naturally regulate appetite. Intermittent fasting has emerged as an alternative strategy; the 2026 ACC notes it may be effective for short-term weight loss in some individuals, though evidence for long-term benefit remains limited.",
+  "nutritionGuidance": [
+    {
+      "title": "Prioritize High-Fiber Foods to Promote Satiety and Reduce Calorie Intake",
+      "content": "Dietary fiber is the most evidence-backed dietary tool for weight management because it directly reduces hunger. Fiber slows gastric emptying, increases the production of satiety hormones (GLP-1, PYY), and reduces the glycemic response of meals — all of which reduce total caloric intake over the course of the day. High-fiber foods include legumes (lentils, chickpeas, black beans), whole grains (steel-cut oats, barley, quinoa, brown rice), non-starchy vegetables (broccoli, spinach, bell peppers), and fruits. The 2026 ACC Scientific Statement notes that high-fiber diets also assist with satiety and weight management beyond their cardiovascular benefits. Increasing fiber intake is best done gradually — adding one to two high-fiber foods per day — to allow the gut to adjust.",
+      "sources": [
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        },
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    },
+    {
+      "title": "Eliminate Ultra-Processed Foods and Sugar-Sweetened Beverages",
+      "content": "Ultra-processed foods are specifically implicated in obesity because a short-term randomized controlled trial demonstrated they increase caloric intake and weight gain independent of macronutrient composition — meaning even when protein, fat, and carbohydrate content is matched, ultra-processed food diets led to more eating. This highlights that food structure and processing matter beyond traditional nutrient metrics. The strongest evidence links sugar-sweetened beverages (SSBs) and processed meats with excess weight gain and metabolic dysfunction. The 2026 ACC recommends a dietary pattern emphasizing minimally processed, plant-derived foods while limiting SSBs, processed meats, and other ultra-processed foods high in refined starches, added sugars, sodium, or unhealthy fats. The Cleveland Clinic Mediterranean diet specifically avoids bakery goods, ice cream, granola bars, fruit juices, sodas, and highly processed or fatty meats.",
+      "sources": [
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        },
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    },
+    {
+      "title": "Choose Whole Grains Over Refined Grains to Reduce Caloric Density",
+      "content": "Refined grains — white bread, white rice, white pasta, and most packaged cereals — are stripped of the fiber, bran, and germ that provide nutritional value and satiety. The Cleveland Clinic notes that refined carbohydrates provide excess calories without much nutritional benefit and often contain minimal fiber, contributing to calorie excess without satisfying hunger. Replacing refined grains with whole grains (oats, barley, quinoa, brown rice, whole-wheat bread and pasta) improves satiety per calorie and is consistently associated with lower risk of obesity in large population studies. The Cleveland Clinic Mediterranean diet recommends 3–6 daily servings of whole grains, choosing oats, barley, quinoa, and brown rice, and baking or roasting starchy vegetables rather than frying.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    },
+    {
+      "title": "Use Legumes and Plant Protein to Replace Calorie-Dense Animal Foods",
+      "content": "Legumes — lentils, chickpeas, black beans, kidney beans — are among the most satiating foods per calorie available. Their combination of high protein, high fiber, and moderate carbohydrate creates a slow, sustained energy release that reduces hunger for hours. Replacing red meat and processed meat with plant protein sources is consistently associated with lower body weight and reduced cardiometabolic risk in large population studies. The 2026 ACC Scientific Statement notes that plant-based protein sources — legumes, whole grains, nuts, seeds — provide fiber, unsaturated fatty acids, and phytochemicals that improve insulin sensitivity and lower inflammation, both of which are disrupted in obesity. The Cleveland Clinic Mediterranean diet recommends 3 servings of legumes per week (½ cup per serving).",
+      "sources": [
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        },
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    },
+    {
+      "title": "Incorporate Healthy Fats in Controlled Portions for Sustained Fullness",
+      "content": "Not all fats promote weight gain — healthy unsaturated fats from extra-virgin olive oil, nuts, and avocado promote sustained satiety, support brain health, and combat the chronic inflammation that is elevated in obesity. The Cleveland Clinic Mediterranean diet recommends 1–4 tablespoons of EVOO daily and at least 3 weekly servings of nuts (¼ cup). Despite being calorie-dense, nuts have consistently been associated with better weight outcomes in large population studies, likely because they promote satiety and are incompletely absorbed. The key is portion control — the Mediterranean diet specifies serving sizes rather than unrestricted consumption. Replacing saturated fats (butter, full-fat dairy, fatty meats) with these unsaturated plant fats supports both weight management and metabolic health.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    }
+  ],
+  "foods": [
+    {
+      "id": "steel-cut-oats",
+      "name": "Steel-Cut Oats",
+      "serving": "½ cup dry (yields ~1 cup cooked)",
+      "frequency": "Daily, as part of 3–6 whole-grain servings",
+      "why": "High soluble fiber (beta-glucan) forms a thick gel in the stomach that slows digestion and suppresses appetite hormones for hours, reducing total daily calorie intake.",
+      "notes": "Cleveland Clinic lists steel-cut oats with fresh berries and ground flaxseed as a recommended Mediterranean diet breakfast. Steel-cut oats have a lower glycemic index than rolled or instant oats because less processing preserves more of the grain structure.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    },
+    {
+      "id": "lentils",
+      "name": "Lentils",
+      "serving": "½ cup cooked",
+      "frequency": "3 servings of legumes per week",
+      "why": "High protein and fiber content increases satiety hormones and slows gastric emptying, keeping hunger suppressed longer per calorie than most other foods.",
+      "notes": "One of the most satiating foods per calorie available. Provides plant-based protein that can replace higher-calorie red meat. Can be added to soups, salads, and stews or used as a base for vegetarian main dishes.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    },
+    {
+      "id": "chickpeas",
+      "name": "Chickpeas",
+      "serving": "½ cup cooked",
+      "frequency": "3 servings of legumes per week",
+      "why": "Fiber and plant protein work together to slow digestion and stabilize blood sugar, preventing the sharp hunger spikes that drive overeating between meals.",
+      "notes": "Cleveland Clinic sample meals include hummus (made from chickpeas) as a satisfying snack and chickpea-based main dishes. Chickpeas are versatile — use in salads, soups, roasted as a snack, or blended into hummus with no-added-salt tahini.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    },
+    {
+      "id": "nonfat-greek-yogurt",
+      "name": "Nonfat Greek Yogurt",
+      "serving": "1 cup",
+      "frequency": "Up to once daily (dairy serving)",
+      "why": "Very high protein content per calorie stimulates satiety hormones, helps preserve lean muscle mass during weight loss, and reduces overall hunger between meals.",
+      "notes": "Cleveland Clinic lists nonfat Greek yogurt as a recommended snack (with dark chocolate of at least 70% cacao) and as a dip for raw vegetables. Choose plain, unsweetened varieties — flavored yogurts typically contain substantial added sugar. Greek yogurt counts toward the Mediterranean diet's daily dairy serving.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    },
+    {
+      "id": "fresh-berries",
+      "name": "Fresh Berries",
+      "serving": "½ to 1 cup",
+      "frequency": "As part of 3 daily fruit servings",
+      "why": "Very low in calories but high in fiber and water content, providing meal volume and natural sweetness that satisfies hunger without contributing significant calories.",
+      "notes": "Cleveland Clinic recommends fresh, in-season fruit as a preferred snack and lists steel-cut oats with fresh berries as a sample breakfast. Berries in particular are low in sugar compared to other fruits. Add to oatmeal, Greek yogurt, or eat as a standalone snack in place of processed sweets.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    },
+    {
+      "id": "quinoa",
+      "name": "Quinoa",
+      "serving": "½ cup cooked",
+      "frequency": "Part of 3–6 daily whole-grain servings",
+      "why": "Complete plant protein combined with whole-grain fiber promotes satiety and sustained energy, reducing the urge to snack on calorie-dense ultra-processed foods.",
+      "notes": "Cleveland Clinic specifically lists quinoa as a recommended whole grain and includes toasted quinoa salad with salmon as a sample Mediterranean meal. Quinoa provides all nine essential amino acids, making it a complete protein source that can substitute for meat in a meal.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    },
+    {
+      "id": "broccoli",
+      "name": "Broccoli",
+      "serving": "½ cup cooked or 1 cup raw",
+      "frequency": "At least 3–5 vegetable servings daily",
+      "why": "Extremely low in calories but high in fiber and water content, providing significant meal volume that promotes physical fullness without meaningful caloric contribution.",
+      "notes": "Featured in the Mayo Clinic DASH Day 3 vegetable stir-fry (½ cup broccoli florets). Non-starchy vegetables like broccoli are the foundation of a weight-management diet because they add bulk and nutrients while displacing higher-calorie foods. Steam, roast, or stir-fry without added fats for maximum benefit.",
+      "sources": [
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        }
+      ]
+    },
+    {
+      "id": "walnuts",
+      "name": "Walnuts",
+      "serving": "¼ cup (about 1 oz)",
+      "frequency": "At least 3 servings of nuts per week",
+      "why": "Despite being calorie-dense, portion-controlled walnuts promote strong satiety through healthy fat and fiber, and population studies consistently associate nut consumption with better — not worse — weight outcomes.",
+      "notes": "Cleveland Clinic recommends walnuts, almonds, and hazelnuts — raw, unsalted, or dry roasted — as preferred nuts. The key is portion control at ¼ cup per serving. Nuts are incompletely absorbed due to their cell wall structure, meaning the effective calorie content is lower than the label suggests. Use as a snack or add to salads and oatmeal.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "steel-cut-oats-berries-flaxseed",
+      "title": "Steel-Cut Oats with Fresh Berries and Ground Flaxseed",
+      "description": "A weight-management breakfast recommended by the Cleveland Clinic as a Mediterranean diet morning meal. Steel-cut oats provide slow-digesting soluble fiber that suppresses appetite for hours; fresh berries add natural sweetness, fiber, and antioxidants with minimal calories; and ground flaxseed contributes additional fiber and plant-based omega-3 fatty acids. This combination is specifically designed to prevent the mid-morning hunger that drives snacking on ultra-processed foods.",
+      "servings": 1,
+      "prepMinutes": 5,
+      "cookMinutes": 20,
+      "ingredients": [
+        { "foodId": "steel-cut-oats", "name": "Steel-cut oats", "quantity": "½ cup dry" },
+        { "foodId": null, "name": "Water", "quantity": "1½ cups" },
+        { "foodId": "fresh-berries", "name": "Fresh berries (blueberries, strawberries, or raspberries)", "quantity": "½ cup" },
+        { "foodId": null, "name": "Ground flaxseed", "quantity": "1 tablespoon" },
+        { "foodId": null, "name": "Cinnamon (optional)", "quantity": "¼ teaspoon" }
+      ],
+      "instructions": [
+        "Bring 1½ cups of water to a boil in a small saucepan.",
+        "Stir in steel-cut oats. Reduce heat to low, cover, and simmer for 20 minutes, stirring occasionally, until oats are tender and have absorbed most of the water.",
+        "Remove from heat. Stir in ground flaxseed and cinnamon if using.",
+        "Transfer to a bowl and top with fresh berries.",
+        "Serve immediately. Add a small drizzle of natural nut butter for additional protein and healthy fat if desired."
+      ],
+      "nutritionPerServing": null,
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet (breakfast recommendation)",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    },
+    {
+      "id": "greek-yogurt-fruit-walnuts",
+      "title": "Greek Yogurt Bowl with Fresh Fruit and Walnuts",
+      "description": "A high-protein, nutrient-dense snack or breakfast recommended by the Cleveland Clinic as a Mediterranean diet option. Nonfat Greek yogurt delivers substantial protein per calorie to suppress hunger; fresh fruit adds fiber and natural sweetness without added sugar; and a small serving of walnuts provides healthy fat and additional satiety. This combination is specifically designed for weight management — high satiety per calorie with no ultra-processed ingredients.",
+      "servings": 1,
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "ingredients": [
+        { "foodId": "nonfat-greek-yogurt", "name": "Plain nonfat Greek yogurt", "quantity": "1 cup" },
+        { "foodId": "fresh-berries", "name": "Fresh fruit (berries or sliced banana)", "quantity": "½ cup" },
+        { "foodId": "walnuts", "name": "Walnuts, roughly chopped", "quantity": "¼ cup" },
+        { "foodId": null, "name": "Dark chocolate (at least 70% cacao), optional", "quantity": "1 small square (about 10g)" }
+      ],
+      "instructions": [
+        "Spoon Greek yogurt into a bowl.",
+        "Top with fresh fruit and chopped walnuts.",
+        "If using, add a small square of dark chocolate (at least 70% cacao) as recommended by Cleveland Clinic for a Mediterranean-style treat.",
+        "Serve immediately as a breakfast or snack."
+      ],
+      "nutritionPerServing": null,
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet (snack and breakfast recommendations)",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    }
+  ]
+}

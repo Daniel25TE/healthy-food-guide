@@ -82,7 +82,8 @@
           "label": "Cleveland Clinic: Mediterranean Diet",
           "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
         }
-      ]
+      ],
+      "why": "Improves insulin sensitivity through its monounsaturated fat profile, helping cells respond more effectively to insulin and regulate blood sugar."
     },
     {
       "id": "oats",
@@ -99,7 +100,8 @@
           "label": "2026 ACC Scientific Statement on Nutrition and CVD",
           "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
         }
-      ]
+      ],
+      "why": "Soluble fiber (beta-glucan) slows glucose absorption in the gut, reducing post-meal blood sugar spikes — a key goal in diabetes management."
     },
     {
       "id": "lentils",
@@ -116,7 +118,8 @@
           "label": "2026 ACC Scientific Statement on Nutrition and CVD",
           "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
         }
-      ]
+      ],
+      "why": "High fiber and protein content slows carbohydrate digestion and blunts the glycemic response, helping prevent sharp rises in blood sugar after meals."
     },
     {
       "id": "chickpeas",
@@ -129,7 +132,8 @@
           "label": "Cleveland Clinic: Mediterranean Diet",
           "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
         }
-      ]
+      ],
+      "why": "Low glycemic index legume whose fiber and plant protein stabilize blood sugar by slowing the rate at which glucose enters the bloodstream."
     },
     {
       "id": "salmon",
@@ -146,7 +150,8 @@
           "label": "2026 ACC Scientific Statement on Nutrition and CVD",
           "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
         }
-      ]
+      ],
+      "why": "Omega-3 fatty acids reduce chronic inflammation that contributes to insulin resistance, supporting the body's ability to regulate blood glucose."
     },
     {
       "id": "walnuts",
@@ -163,7 +168,8 @@
           "label": "2026 ACC Scientific Statement on Nutrition and CVD",
           "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
         }
-      ]
+      ],
+      "why": "Alpha-linolenic acid and fiber improve insulin sensitivity and reduce inflammatory markers associated with progression of type 2 diabetes."
     },
     {
       "id": "spinach",
@@ -180,7 +186,8 @@
           "label": "Mayo Clinic: DASH Diet Sample Menus",
           "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
         }
-      ]
+      ],
+      "why": "Very low in carbohydrates and high in fiber, adding significant volume and nutrients to meals without raising blood sugar levels."
     },
     {
       "id": "quinoa",
@@ -193,7 +200,8 @@
           "label": "Cleveland Clinic: Mediterranean Diet",
           "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
         }
-      ]
+      ],
+      "why": "Whole grain with a lower glycemic index than refined grains, providing sustained energy release without sharp blood sugar spikes."
     }
   ],
   "recipes": [
@@ -205,10 +213,26 @@
       "prepMinutes": 10,
       "cookMinutes": 20,
       "ingredients": [
-        { "foodId": null, "name": "Whole-wheat pasta", "quantity": "1½ cups (dry)" },
-        { "foodId": null, "name": "Marinara sauce (low-sodium)", "quantity": "½ cup" },
-        { "foodId": null, "name": "Summer squash, chopped", "quantity": "1 cup" },
-        { "foodId": "spinach", "name": "Frozen chopped spinach", "quantity": "½ cup" }
+        {
+          "foodId": null,
+          "name": "Whole-wheat pasta",
+          "quantity": "1½ cups (dry)"
+        },
+        {
+          "foodId": null,
+          "name": "Marinara sauce (low-sodium)",
+          "quantity": "½ cup"
+        },
+        {
+          "foodId": null,
+          "name": "Summer squash, chopped",
+          "quantity": "1 cup"
+        },
+        {
+          "foodId": "spinach",
+          "name": "Frozen chopped spinach",
+          "quantity": "½ cup"
+        }
       ],
       "instructions": [
         "Bring a pot of water to a boil. Cook whole-wheat pasta according to package directions until al dente. Drain and set aside.",
@@ -233,15 +257,51 @@
       "prepMinutes": 15,
       "cookMinutes": 30,
       "ingredients": [
-        { "foodId": "extra-virgin-olive-oil", "name": "Extra-virgin olive oil", "quantity": "2 tablespoons" },
-        { "foodId": null, "name": "Garlic cloves, minced", "quantity": "2 cloves" },
-        { "foodId": "lentils", "name": "Green or brown lentils, rinsed", "quantity": "1½ cups (dry)" },
-        { "foodId": null, "name": "No-salt-added diced tomatoes (canned)", "quantity": "1 can (14 oz)" },
-        { "foodId": null, "name": "Low-sodium vegetable broth", "quantity": "2 cups" },
-        { "foodId": null, "name": "Cod fillets", "quantity": "4 fillets (3–4 oz each)" },
-        { "foodId": null, "name": "Lemon, juice and zest", "quantity": "1 lemon" },
-        { "foodId": null, "name": "Fresh parsley, chopped", "quantity": "2 tablespoons" },
-        { "foodId": null, "name": "Black pepper", "quantity": "To taste" }
+        {
+          "foodId": "extra-virgin-olive-oil",
+          "name": "Extra-virgin olive oil",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "foodId": null,
+          "name": "Garlic cloves, minced",
+          "quantity": "2 cloves"
+        },
+        {
+          "foodId": "lentils",
+          "name": "Green or brown lentils, rinsed",
+          "quantity": "1½ cups (dry)"
+        },
+        {
+          "foodId": null,
+          "name": "No-salt-added diced tomatoes (canned)",
+          "quantity": "1 can (14 oz)"
+        },
+        {
+          "foodId": null,
+          "name": "Low-sodium vegetable broth",
+          "quantity": "2 cups"
+        },
+        {
+          "foodId": null,
+          "name": "Cod fillets",
+          "quantity": "4 fillets (3–4 oz each)"
+        },
+        {
+          "foodId": null,
+          "name": "Lemon, juice and zest",
+          "quantity": "1 lemon"
+        },
+        {
+          "foodId": null,
+          "name": "Fresh parsley, chopped",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "foodId": null,
+          "name": "Black pepper",
+          "quantity": "To taste"
+        }
       ],
       "instructions": [
         "Heat olive oil in a large, deep skillet or pot over medium heat. Add garlic and cook for 1 minute until fragrant.",

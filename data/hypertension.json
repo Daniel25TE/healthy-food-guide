@@ -1,1 +1,293 @@
-{"id":"hypertension","name":"Hypertension","overview":"TODO: Add overview content here.","nutritionGuidance":[{"title":"TODO: Guidance title","content":"TODO: Add evidence-based nutrition guidance here.","sources":[{"label":"TODO: Source name","url":"https://example.org"}]}],"foods":[{"id":"placeholder-food","name":"TODO: Food name","serving":"TODO: e.g. 1 cup","nutritionPerServing":{"calories":null,"carbohydratesGrams":null,"proteinGrams":null,"fatGrams":null,"saturatedFatGrams":null,"fiberGrams":null,"sodiumMilligrams":null},"notes":"TODO: Add notes about this food.","sources":[]}],"recipes":[{"id":"placeholder-recipe","title":"TODO: Recipe title","description":"TODO: Recipe description.","servings":4,"prepMinutes":15,"cookMinutes":30,"ingredients":[{"foodId":null,"name":"TODO: Ingredient name","quantity":"TODO: e.g. 1 cup"}],"instructions":["TODO: Step 1.","TODO: Step 2."],"nutritionPerServing":{"calories":null,"carbohydratesGrams":null,"proteinGrams":null,"fatGrams":null,"saturatedFatGrams":null,"fiberGrams":null,"sodiumMilligrams":null},"sources":[]}]}
+{
+  "id": "hypertension",
+  "name": "Hypertension",
+  "overview": "Hypertension (high blood pressure) is one of the most prevalent and dangerous chronic conditions, serving as a leading risk factor for heart disease, stroke, and kidney failure. Blood pressure is measured in two numbers — systolic (the pressure when the heart beats) over diastolic (the pressure between beats). A reading consistently at or above 130/80 mmHg is classified as hypertension. Diet is one of the most powerful tools for both preventing and managing elevated blood pressure, with the ability to produce clinically meaningful reductions without medication.\n\nThe DASH (Dietary Approaches to Stop Hypertension) eating plan was developed specifically by the National Heart, Lung, and Blood Institute to lower blood pressure through diet. It is a flexible, balanced eating plan emphasizing vegetables, fruits, whole grains, lean proteins, and low-fat dairy, while strictly limiting sodium, saturated fats, and sweets. The 2026 ACC Scientific Statement confirms that low-sodium and very low-sodium diets produce clinically significant reductions in systolic blood pressure averaging 6 to 8 mmHg compared with high-sodium diets — a reduction comparable to what a single blood pressure medication can achieve. Average sodium intake in the United States exceeds 3,400 mg/day, well above the 2,300 mg/day target.\n\nPotassium is the nutritional counterpart to sodium in blood pressure regulation — it helps the kidneys excrete excess sodium and relaxes blood vessel walls. Yet only 28% of Americans meet the adequate intake for potassium. The DASH diet is specifically designed to increase potassium, calcium, and magnesium intake through whole foods — minerals that together counteract the blood pressure-raising effects of sodium. Even low levels of alcohol consumption raise the risk of hypertension, and the 2026 ACC explicitly states that alcohol should not be initiated for cardiovascular benefit.",
+  "nutritionGuidance": [
+    {
+      "title": "Follow the DASH Eating Plan Daily Serving Targets",
+      "content": "The DASH eating plan was developed specifically to treat hypertension through diet. On a 2,000-calorie diet it targets the following daily servings: Grains (preferring whole grains): 6–8 servings; Vegetables: 4–5 servings; Fruits: 4–5 servings; Low-fat or fat-free dairy: 2–3 servings; Lean meats, poultry, or fish: 6 or fewer servings; Fats and oils: 2–3 servings; Sodium: no more than 2,300 mg/day, with 1,500 mg/day providing greater blood pressure reduction. Weekly targets include 4–5 servings of nuts, seeds, or dry beans, and no more than 5 servings of sweets. The plan is rich in potassium, calcium, magnesium, fiber, and protein — the specific nutrients shown to lower blood pressure — while being low in saturated fat and sodium. DASH does not require special foods; it is a pattern of everyday choices.",
+      "sources": [
+        {
+          "label": "NHLBI: DASH Eating Plan",
+          "url": "https://www.nhlbi.nih.gov/health/dash-eating-plan"
+        },
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        }
+      ]
+    },
+    {
+      "title": "Reduce Sodium to Under 2,300 mg Per Day",
+      "content": "Sodium is the primary dietary driver of elevated blood pressure. The 2026 ACC Scientific Statement confirms that individual sodium intake in the United States averages over 3,400 mg/day, with 95.8% of men and 77.8% of women exceeding the 2,300 mg/day Chronic Disease Risk Reduction intake. Reducing sodium to under 2,300 mg/day — and ideally to 1,500 mg/day — produces measurable, clinically significant reductions in systolic blood pressure. Most dietary sodium does not come from the salt shaker; it comes from processed, packaged, and restaurant foods. The top sources in the United States are pizza, breads, processed meats, canned soups, burgers, tacos, burritos, and savory snacks. The three DASH sample days from the Mayo Clinic achieved sodium levels of 1,157 mg, 1,462 mg, and 2,017 mg — all within or below the 2,300 mg target — through home cooking with whole, minimally processed ingredients.",
+      "sources": [
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        },
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        }
+      ]
+    },
+    {
+      "title": "Increase Potassium Through Fruits, Vegetables, and Legumes",
+      "content": "Potassium directly counteracts the blood pressure-raising effect of sodium by helping the kidneys excrete more sodium in urine and by relaxing the walls of blood vessels. Increased potassium intake reduces blood pressure in people with hypertension and is associated with a lower risk of stroke. The 2026 ACC notes that potassium is identified as a nutrient of public health concern, with only 28% of Americans meeting the adequate intake. Potassium is widely available in whole foods — particularly fruits (bananas, oranges, pears), vegetables (spinach, avocado, potatoes), legumes (chickpeas, lentils), and low-fat dairy. Potassium-enriched salt substitutes have been shown to lower blood pressure and reduce major cardiovascular events in people without advanced kidney disease. The three DASH sample days from the Mayo Clinic achieved potassium intakes of 4,469 mg, 3,660 mg, and 5,406 mg — all substantially above the typical U.S. average.",
+      "sources": [
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        },
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        }
+      ]
+    },
+    {
+      "title": "Choose Low-Fat Dairy for Calcium and Magnesium",
+      "content": "The DASH diet specifically targets 2–3 daily servings of low-fat or fat-free dairy (milk, yogurt, or cheese) as a source of calcium and magnesium — two minerals that relax blood vessel walls and reduce blood pressure. Full-fat dairy, in contrast, is limited because it is high in saturated fat, which raises LDL cholesterol and contributes to cardiovascular risk. The Mayo Clinic DASH sample menus include fat-free milk with breakfast (Day 1 and Day 2), 1 cup low-fat yogurt as a snack (Day 1), and skim milk with lunch and dinner (Days 2 and 3). For individuals with lactose intolerance — which is common among Asian, African, Latin American, and Indigenous populations — the 2026 ACC recommends fortified plant-based beverages such as soy, oat, or almond milk as alternative sources of calcium and vitamin D.",
+      "sources": [
+        {
+          "label": "NHLBI: DASH Eating Plan",
+          "url": "https://www.nhlbi.nih.gov/health/dash-eating-plan"
+        },
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    },
+    {
+      "title": "Avoid Alcohol and Limit Fatty Meats and Full-Fat Dairy",
+      "content": "Alcohol raises blood pressure in a dose-dependent manner — even low levels of consumption can raise hypertension risk. The 2026 ACC Scientific Statement explicitly states that alcohol should not be initiated for cardiovascular benefits, and that for people who choose to drink, intake should be strictly limited. The NHLBI DASH plan limits fatty meats (beef, pork, lamb), full-fat dairy, and tropical oils (coconut and palm oils) — all high in saturated fat — because they raise LDL cholesterol and promote cardiovascular disease on top of the damage from hypertension. Replacing fatty meats with fish, poultry, or legumes is a central practical strategy of the DASH diet. Caffeine from filtered coffee (2–5 cups/day) is considered safe by the 2026 ACC and is associated with lower — not higher — cardiometabolic risk in population studies.",
+      "sources": [
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        },
+        {
+          "label": "NHLBI: DASH Eating Plan",
+          "url": "https://www.nhlbi.nih.gov/health/dash-eating-plan"
+        }
+      ]
+    }
+  ],
+  "foods": [
+    {
+      "id": "oatmeal",
+      "name": "Oatmeal (no salt added)",
+      "serving": "1 cup cooked",
+      "frequency": "Daily, as part of 6–8 grain servings",
+      "why": "Soluble beta-glucan fiber lowers systolic blood pressure and reduces LDL cholesterol, providing dual protection against the cardiovascular complications of hypertension.",
+      "notes": "The Mayo Clinic DASH Day 1 breakfast is built around 1 cup of oatmeal prepared without salt, paired with raisins, banana, and fat-free milk. Cooking oatmeal without salt is a practical way to reduce sodium intake significantly — instant oatmeal packets often contain 100–200 mg of sodium per serving.",
+      "sources": [
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        }
+      ]
+    },
+    {
+      "id": "spinach",
+      "name": "Spinach",
+      "serving": "1 cup raw or ½ cup cooked",
+      "frequency": "At least 4–5 vegetable servings daily",
+      "why": "One of the highest dietary sources of potassium, which directly counteracts sodium's blood pressure-raising effect by helping the kidneys excrete excess sodium.",
+      "notes": "The Mayo Clinic DASH Day 2 uses 3 cups of fresh spinach as a salad base and ½ cup of frozen spinach in the dinner pasta, achieving 3,660 mg of potassium for the day. Spinach can be eaten raw in salads, wilted into pasta, blended into smoothies, or added to egg dishes — all without adding sodium.",
+      "sources": [
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    },
+    {
+      "id": "avocado",
+      "name": "Avocado",
+      "serving": "½ to 1 medium",
+      "frequency": "Several times per week as part of healthy fat servings",
+      "why": "Exceptionally rich in potassium — more per gram than a banana — which helps the kidneys excrete excess sodium and relaxes blood vessel walls, directly lowering blood pressure.",
+      "notes": "The Mayo Clinic DASH Day 3 breakfast is built around 1 medium avocado on whole-wheat toast with a poached egg and sundried tomatoes. That day's potassium total reached 5,406 mg, the highest of the three sample days. Avocado also provides monounsaturated fat that supports cardiovascular health beyond blood pressure.",
+      "sources": [
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    },
+    {
+      "id": "low-fat-yogurt",
+      "name": "Low-Fat Yogurt",
+      "serving": "1 cup",
+      "frequency": "2–3 dairy servings daily",
+      "why": "Provides calcium and magnesium — two minerals that relax the walls of blood vessels, directly contributing to blood pressure reduction as targeted by the DASH plan.",
+      "notes": "The Mayo Clinic DASH Day 1 snack is 1 cup of low-fat yogurt with a medium peach. The Day 1 menu achieved 1,000 mg of calcium from food — consistent with the DASH goal. Choose plain, unsweetened varieties to avoid the high added-sugar content in most flavored yogurts.",
+      "sources": [
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        },
+        {
+          "label": "NHLBI: DASH Eating Plan",
+          "url": "https://www.nhlbi.nih.gov/health/dash-eating-plan"
+        }
+      ]
+    },
+    {
+      "id": "salmon",
+      "name": "Salmon",
+      "serving": "4 oz",
+      "frequency": "Up to 6 oz daily (lean protein); fish 3 times per week recommended",
+      "why": "Omega-3 fatty acids reduce arterial stiffness and vascular inflammation, two mechanisms that directly contribute to elevated blood pressure beyond sodium intake.",
+      "notes": "Featured in the Mayo Clinic DASH Day 1 dinner (4 oz with maple balsamic glaze), contributing to a total of 4,469 mg of potassium for the day. The DASH diet allows up to 6 or fewer servings of lean meat, poultry, or fish daily — fish like salmon is preferred over fatty red meat.",
+      "sources": [
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        },
+        {
+          "label": "NHLBI: DASH Eating Plan",
+          "url": "https://www.nhlbi.nih.gov/health/dash-eating-plan"
+        }
+      ]
+    },
+    {
+      "id": "almonds",
+      "name": "Almonds (unsalted)",
+      "serving": "¼ cup (about 1 oz)",
+      "frequency": "4–5 weekly servings of nuts, seeds, or dry beans",
+      "why": "Provides magnesium, a mineral that relaxes blood vessel smooth muscle and is specifically targeted by the DASH eating plan as a blood pressure-lowering nutrient.",
+      "notes": "The Mayo Clinic DASH Day 3 snack is ¼ cup of almonds with a peach. The Day 3 menu achieved 579 mg of magnesium — well above the typical U.S. average. Always choose unsalted almonds; salted varieties can add 100–200 mg of sodium per serving, directly working against the DASH sodium target.",
+      "sources": [
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        },
+        {
+          "label": "NHLBI: DASH Eating Plan",
+          "url": "https://www.nhlbi.nih.gov/health/dash-eating-plan"
+        }
+      ]
+    },
+    {
+      "id": "brown-rice",
+      "name": "Brown Rice",
+      "serving": "1 cup cooked",
+      "frequency": "Part of 6–8 daily grain servings",
+      "why": "Whole grain providing magnesium and dietary fiber — both targeted by the DASH plan — which together support healthy blood vessel function and lower blood pressure.",
+      "notes": "Featured in the Mayo Clinic DASH Day 3 vegetable stir-fry dinner. Brown rice retains the bran and germ that white rice loses during milling, preserving its fiber, magnesium, and B-vitamin content. The Day 3 menu, built around this stir-fry, achieved the highest potassium (5,406 mg) and magnesium (579 mg) of the three sample days.",
+      "sources": [
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        },
+        {
+          "label": "NHLBI: DASH Eating Plan",
+          "url": "https://www.nhlbi.nih.gov/health/dash-eating-plan"
+        }
+      ]
+    },
+    {
+      "id": "hummus",
+      "name": "Hummus (no-salt-added)",
+      "serving": "½ cup",
+      "frequency": "As part of 4–5 weekly legume servings",
+      "why": "Chickpea base provides potassium and magnesium — the two key blood pressure-lowering minerals targeted by the DASH eating plan — in a convenient, portable form.",
+      "notes": "The Mayo Clinic DASH Day 1 lunch is a full hummus plate with ½ cup hummus, raw vegetables (red pepper, cucumber, carrots), falafel, and a whole-grain pita. That meal contributes significantly to potassium and magnesium targets. Choose no-salt-added or low-sodium hummus — commercial versions can contain 100–150 mg of sodium per 2-tablespoon serving.",
+      "sources": [
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        },
+        {
+          "label": "NHLBI: DASH Eating Plan",
+          "url": "https://www.nhlbi.nih.gov/health/dash-eating-plan"
+        }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "dash-vegetable-stir-fry-brown-rice",
+      "title": "DASH Vegetable Stir-Fry with Brown Rice",
+      "description": "The highest-potassium meal of the Mayo Clinic DASH diet 3-day sample plan, achieving 5,406 mg of potassium for the full day — far above the typical U.S. intake. This stir-fry is specifically built around the DASH targets: six different vegetables providing potassium and magnesium, reduced-sodium soy sauce keeping sodium in check, and brown rice adding whole-grain fiber and magnesium. No meat is needed — the variety of vegetables and cashews provides satisfying texture and nutrients.",
+      "servings": 1,
+      "prepMinutes": 10,
+      "cookMinutes": 15,
+      "ingredients": [
+        { "foodId": null, "name": "Sesame oil", "quantity": "½ teaspoon" },
+        { "foodId": null, "name": "Onion, sliced", "quantity": "½ cup" },
+        { "foodId": null, "name": "Red bell pepper, chopped", "quantity": "½ cup" },
+        { "foodId": null, "name": "Button mushrooms, sliced", "quantity": "½ cup" },
+        { "foodId": null, "name": "Broccoli florets", "quantity": "½ cup" },
+        { "foodId": null, "name": "Carrots, sliced", "quantity": "½ cup" },
+        { "foodId": null, "name": "Fresh ginger, chopped", "quantity": "½ teaspoon" },
+        { "foodId": null, "name": "Fresh garlic, chopped", "quantity": "½ teaspoon" },
+        { "foodId": null, "name": "Mirin rice wine", "quantity": "½ tablespoon" },
+        { "foodId": null, "name": "Reduced-sodium soy sauce", "quantity": "½ teaspoon" },
+        { "foodId": null, "name": "Cashews, chopped", "quantity": "½ tablespoon" },
+        { "foodId": "brown-rice", "name": "Brown rice, cooked", "quantity": "1 cup" }
+      ],
+      "instructions": [
+        "Cook brown rice according to package directions and keep warm.",
+        "Heat sesame oil in a large non-stick skillet or wok over medium-high heat.",
+        "Add sliced onion and cook for 2 minutes until it begins to soften.",
+        "Add ginger and garlic; stir for 30 seconds until fragrant.",
+        "Add bell pepper, mushrooms, broccoli, and carrots. Stir-fry for 5–7 minutes, tossing frequently, until vegetables are tender-crisp.",
+        "Add mirin and reduced-sodium soy sauce. Toss to coat all vegetables evenly. Cook 1 more minute.",
+        "Serve immediately over brown rice. Garnish with chopped cashews."
+      ],
+      "nutritionPerServing": null,
+      "sources": [
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus (Day 3 Dinner)",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        }
+      ]
+    },
+    {
+      "id": "dash-hummus-plate-falafel",
+      "title": "DASH Hummus Plate with Falafel and Whole-Grain Pita",
+      "description": "The Day 1 lunch from the Mayo Clinic DASH diet sample menu, contributing to a full-day potassium total of 4,469 mg and only 2,017 mg of sodium. This plate centers on hummus — a chickpea-based dip rich in potassium and magnesium — surrounded by raw vegetables that add crunch, fiber, and additional potassium. The whole-grain pita provides fiber to support the DASH grain target. This meal is entirely plant-based and requires no cooking, making the DASH diet practical for any schedule.",
+      "servings": 1,
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "ingredients": [
+        { "foodId": "hummus", "name": "Hummus (no-salt-added)", "quantity": "½ cup" },
+        { "foodId": null, "name": "Red bell pepper, sliced", "quantity": "½ medium" },
+        { "foodId": null, "name": "Cucumber, sliced", "quantity": "½ medium" },
+        { "foodId": null, "name": "Baby carrots", "quantity": "10 carrots" },
+        { "foodId": null, "name": "Falafel patties (~2 inches diameter)", "quantity": "3 patties" },
+        { "foodId": null, "name": "Whole-grain pita pocket", "quantity": "1 pita" }
+      ],
+      "instructions": [
+        "Arrange hummus in the center of a plate.",
+        "Surround with sliced red pepper, cucumber slices, and baby carrots for dipping.",
+        "Warm falafel patties in a toaster oven or skillet for 3–4 minutes if using store-bought, or prepare from scratch.",
+        "Serve falafel and raw vegetables alongside the hummus with a whole-grain pita pocket.",
+        "Note: when buying store-bought hummus and falafel, check labels for sodium content and choose low-sodium versions to stay within DASH targets."
+      ],
+      "nutritionPerServing": null,
+      "sources": [
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus (Day 1 Lunch)",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        }
+      ]
+    }
+  ]
+}

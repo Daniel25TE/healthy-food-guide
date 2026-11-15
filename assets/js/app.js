@@ -41,6 +41,7 @@ function renderFoods(foods) {
             <th>Food</th>
             <th>Serving Size</th>
             <th>Frequency</th>
+            <th>Why?</th>
             <th>Notes</th>
           </tr>
         </thead>
@@ -50,6 +51,7 @@ function renderFoods(foods) {
               <td><strong>${f.name}</strong></td>
               <td>${f.serving || '—'}</td>
               <td>${f.frequency || '—'}</td>
+              <td><em>${f.why || '—'}</em></td>
               <td>${f.notes || '—'}</td>
             </tr>
           `).join('')}

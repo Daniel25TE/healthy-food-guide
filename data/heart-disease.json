@@ -90,7 +90,8 @@
           "label": "Mayo Clinic: DASH Diet Sample Menus",
           "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
         }
-      ]
+      ],
+      "why": "Omega-3 fatty acids (EPA and DHA) lower triglycerides and reduce arterial inflammation, two key biological drivers of cardiovascular disease."
     },
     {
       "id": "extra-virgin-olive-oil",
@@ -107,7 +108,8 @@
           "label": "2026 ACC Scientific Statement on Nutrition and CVD",
           "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
         }
-      ]
+      ],
+      "why": "Replaces saturated fat with monounsaturated fat, directly reducing LDL cholesterol and slowing atherosclerotic plaque formation in the arteries."
     },
     {
       "id": "walnuts",
@@ -124,7 +126,8 @@
           "label": "2026 ACC Scientific Statement on Nutrition and CVD",
           "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
         }
-      ]
+      ],
+      "why": "Polyunsaturated fat and alpha-linolenic acid lower LDL cholesterol and reduce vascular inflammation, improving cardiovascular risk markers."
     },
     {
       "id": "oats",
@@ -141,7 +144,8 @@
           "label": "2026 ACC Scientific Statement on Nutrition and CVD",
           "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
         }
-      ]
+      ],
+      "why": "Soluble beta-glucan fiber binds to cholesterol in the digestive tract and removes it before absorption, reducing LDL cholesterol levels."
     },
     {
       "id": "lentils",
@@ -158,7 +162,8 @@
           "label": "2026 ACC Scientific Statement on Nutrition and CVD",
           "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
         }
-      ]
+      ],
+      "why": "Plant protein and fiber combination lowers LDL cholesterol and replaces red meat in the diet, reducing a major driver of cardiovascular mortality."
     },
     {
       "id": "spinach",
@@ -175,7 +180,8 @@
           "label": "NHLBI: DASH Eating Plan",
           "url": "https://www.nhlbi.nih.gov/health/dash-eating-plan"
         }
-      ]
+      ],
+      "why": "Provides potassium and magnesium that lower blood pressure by relaxing blood vessel walls and reducing the strain on the heart."
     },
     {
       "id": "almonds",
@@ -192,7 +198,8 @@
           "label": "Mayo Clinic: DASH Diet Sample Menus",
           "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
         }
-      ]
+      ],
+      "why": "Monounsaturated fat and fiber lower LDL cholesterol while maintaining HDL cholesterol, improving the lipid profile linked to heart disease risk."
     },
     {
       "id": "avocado",
@@ -209,7 +216,8 @@
           "label": "2026 ACC Scientific Statement on Nutrition and CVD",
           "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
         }
-      ]
+      ],
+      "why": "Monounsaturated fat replaces saturated fat in the diet, supporting lower LDL cholesterol and reduced risk of atherosclerosis and coronary heart disease."
     }
   ],
   "recipes": [
@@ -221,13 +229,41 @@
       "prepMinutes": 10,
       "cookMinutes": 20,
       "ingredients": [
-        { "foodId": "salmon", "name": "Salmon fillet", "quantity": "4 oz" },
-        { "foodId": null, "name": "Maple syrup", "quantity": "1 teaspoon" },
-        { "foodId": null, "name": "Balsamic vinegar", "quantity": "1 tablespoon" },
-        { "foodId": null, "name": "Whole-grain and wild rice blend", "quantity": "1 cup cooked" },
-        { "foodId": null, "name": "Green beans", "quantity": "½ cup" },
-        { "foodId": null, "name": "Red bell pepper, sliced", "quantity": "¼ cup" },
-        { "foodId": null, "name": "Canned pear slices in juice (no syrup)", "quantity": "½ cup" }
+        {
+          "foodId": "salmon",
+          "name": "Salmon fillet",
+          "quantity": "4 oz"
+        },
+        {
+          "foodId": null,
+          "name": "Maple syrup",
+          "quantity": "1 teaspoon"
+        },
+        {
+          "foodId": null,
+          "name": "Balsamic vinegar",
+          "quantity": "1 tablespoon"
+        },
+        {
+          "foodId": null,
+          "name": "Whole-grain and wild rice blend",
+          "quantity": "1 cup cooked"
+        },
+        {
+          "foodId": null,
+          "name": "Green beans",
+          "quantity": "½ cup"
+        },
+        {
+          "foodId": null,
+          "name": "Red bell pepper, sliced",
+          "quantity": "¼ cup"
+        },
+        {
+          "foodId": null,
+          "name": "Canned pear slices in juice (no syrup)",
+          "quantity": "½ cup"
+        }
       ],
       "instructions": [
         "Preheat oven to 400°F (200°C). Line a small baking sheet with parchment paper.",
@@ -254,14 +290,46 @@
       "prepMinutes": 10,
       "cookMinutes": 0,
       "ingredients": [
-        { "foodId": "spinach", "name": "Fresh spinach leaves", "quantity": "3 cups" },
-        { "foodId": null, "name": "Pear, sliced", "quantity": "1 medium" },
-        { "foodId": null, "name": "Canned mandarin oranges (in juice, drained)", "quantity": "½ cup" },
-        { "foodId": "extra-virgin-olive-oil", "name": "Olive oil", "quantity": "1 tablespoon" },
-        { "foodId": null, "name": "Red wine vinegar", "quantity": "1 tablespoon" },
-        { "foodId": null, "name": "Goat cheese, crumbled", "quantity": "1 oz" },
-        { "foodId": null, "name": "Cooked chicken breast, sliced", "quantity": "3 oz" },
-        { "foodId": null, "name": "Small whole-wheat roll", "quantity": "1 roll" }
+        {
+          "foodId": "spinach",
+          "name": "Fresh spinach leaves",
+          "quantity": "3 cups"
+        },
+        {
+          "foodId": null,
+          "name": "Pear, sliced",
+          "quantity": "1 medium"
+        },
+        {
+          "foodId": null,
+          "name": "Canned mandarin oranges (in juice, drained)",
+          "quantity": "½ cup"
+        },
+        {
+          "foodId": "extra-virgin-olive-oil",
+          "name": "Olive oil",
+          "quantity": "1 tablespoon"
+        },
+        {
+          "foodId": null,
+          "name": "Red wine vinegar",
+          "quantity": "1 tablespoon"
+        },
+        {
+          "foodId": null,
+          "name": "Goat cheese, crumbled",
+          "quantity": "1 oz"
+        },
+        {
+          "foodId": null,
+          "name": "Cooked chicken breast, sliced",
+          "quantity": "3 oz"
+        },
+        {
+          "foodId": null,
+          "name": "Small whole-wheat roll",
+          "quantity": "1 roll"
+        }
       ],
       "instructions": [
         "In a large bowl, combine fresh spinach, sliced pear, and drained mandarin oranges.",
