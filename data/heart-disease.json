@@ -1,1 +1,282 @@
-{"id":"heart-disease","name":"Heart Disease","overview":"TODO: Add overview content here.","nutritionGuidance":[{"title":"TODO: Guidance title","content":"TODO: Add evidence-based nutrition guidance here.","sources":[{"label":"TODO: Source name","url":"https://example.org"}]}],"foods":[{"id":"placeholder-food","name":"TODO: Food name","serving":"TODO: e.g. 1 cup","nutritionPerServing":{"calories":null,"carbohydratesGrams":null,"proteinGrams":null,"fatGrams":null,"saturatedFatGrams":null,"fiberGrams":null,"sodiumMilligrams":null},"notes":"TODO: Add notes about this food.","sources":[]}],"recipes":[{"id":"placeholder-recipe","title":"TODO: Recipe title","description":"TODO: Recipe description.","servings":4,"prepMinutes":15,"cookMinutes":30,"ingredients":[{"foodId":null,"name":"TODO: Ingredient name","quantity":"TODO: e.g. 1 cup"}],"instructions":["TODO: Step 1.","TODO: Step 2."],"nutritionPerServing":{"calories":null,"carbohydratesGrams":null,"proteinGrams":null,"fatGrams":null,"saturatedFatGrams":null,"fiberGrams":null,"sodiumMilligrams":null},"sources":[]}]}
+{
+  "id": "heart-disease",
+  "name": "Heart Disease",
+  "overview": "Cardiovascular disease (CVD) is the leading cause of death worldwide, accounting for approximately 20 million deaths annually. In the past several decades, CVD mortality declined markedly in the United States and other high-income countries due to improvements in risk factors and treatment. However, those gains have slowed in recent years, with evidence of stagnation and modest increases in CVD mortality driven in part by the rising prevalence of obesity, diabetes, and hypertension. Globally, the burden of atherosclerotic CVD has continued to increase, particularly in lower-income countries undergoing rapid nutrition transitions.\n\nSuboptimal diet has been identified as a key modifiable risk factor for CVD. The concept of a heart-healthy diet has evolved substantially over time — early guidelines focused on reducing total fat, then shifted to fat quality, and more recently the focus has moved to overall dietary patterns rather than individual nutrients. Strong evidence from randomized controlled trials supports healthy eating patterns such as the Mediterranean and DASH diets, which are rich in fruits, vegetables, whole grains, nuts, legumes, and unsaturated fats. The landmark PREDIMED primary prevention trial and the CORDIOPREV secondary prevention trial both found that Mediterranean diets enriched with extra-virgin olive oil or nuts significantly reduced major cardiovascular events compared with low-fat control diets.\n\nThe 2026 American College of Cardiology Scientific Statement on Nutrition and Cardiovascular Disease concludes that CVD risk is influenced more by food source, nutrition quality, and degree of processing than by the relative proportions of protein, fat, and carbohydrate. It recommends replacing saturated fats with unsaturated fats, increasing fiber from whole grains and legumes, limiting sodium and ultra-processed foods — particularly sugar-sweetened beverages and processed meats — and choosing minimally processed, plant-forward foods as the foundation of a heart-healthy diet.",
+  "nutritionGuidance": [
+    {
+      "title": "Follow a Mediterranean or DASH Dietary Pattern",
+      "content": "The Mediterranean and DASH dietary patterns have the strongest evidence base for cardiovascular disease prevention. Greater adherence to these patterns is consistently associated with lower risks of CVD, coronary heart disease, stroke, and cardiovascular mortality, as well as favorable effects on blood pressure, blood lipids, glycemic control, inflammation, and body weight. The Mediterranean diet emphasizes high intake of olive oil, fruits, nuts, vegetables, and whole grains; moderate intake of fish and poultry; and low intake of dairy products, red meat, processed meats, and sweets. The DASH diet targets daily servings of fruits (4–5), vegetables (4–5), whole grains (6–8), and low-fat dairy (2–3), with weekly targets of 4–5 servings of nuts, seeds, and legumes, and limits sodium to under 2,300 mg/day. Although these patterns differ modestly in the type and amount of animal products and fats included, they share the core features that promote cardiovascular health: high in plant foods, low in saturated fat, and low in sodium.",
+      "sources": [
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        },
+        {
+          "label": "NHLBI: DASH Eating Plan",
+          "url": "https://www.nhlbi.nih.gov/health/dash-eating-plan"
+        },
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    },
+    {
+      "title": "Replace Saturated Fats with Unsaturated Fats",
+      "content": "There is consistent evidence from randomized controlled trials and large cohort studies that replacing sources of saturated fat with sources of polyunsaturated fat — and to a lesser extent monounsaturated fat — lowers LDL cholesterol and reduces risk of coronary heart disease. Replacing 5% of calories from saturated fatty acids with an equivalent number of calories from polyunsaturated fats is associated with a 19–27% reduction in all-cause mortality, based on individual studies. Saturated fats are found in fatty meats, full-fat dairy, and tropical oils (coconut, palm, cocoa butter). Healthy unsaturated fat sources to emphasize include liquid plant oils (olive, canola, soybean), nuts, seeds, and fatty fish. The Cleveland Clinic Mediterranean diet guidance specifies extra-virgin olive oil as the primary fat — 1 tablespoon per serving, 1–4 servings daily — because it provides better healthy fat ratios and higher antioxidant content than regular olive oil. Replacing dairy fat with polyunsaturated or vegetable fats is also associated with lower CVD risk.",
+      "sources": [
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        },
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    },
+    {
+      "title": "Increase Dietary Fiber from Whole Grains and Legumes",
+      "content": "Dietary fiber is a nutrient of serious public health concern — only 6% of Americans meet the recommended intake of 25 g/day for women and 38 g/day for men, with average intake at only 15–17 g/day. Increased fiber intake, particularly viscous fiber, is associated with reduced blood pressure, blood sugar, total cholesterol, and LDL cholesterol, as well as lower risk of coronary heart disease, stroke, and both CVD-related and all-cause mortality. High-fiber foods include legumes, whole grains (oats, barley, quinoa, brown rice, whole wheat), fruits, vegetables, nuts, and seeds. These foods should replace refined grains and other low-fiber foods high in added sugars and refined starches. Fiber's anti-inflammatory properties are thought to be mediated through alterations in gut microbiome and increased production of short-chain fatty acids. High-fiber diets also assist with satiety and weight management.",
+      "sources": [
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    },
+    {
+      "title": "Reduce Sodium and Limit Ultra-Processed Foods",
+      "content": "High-sodium diets increase hypertension, chronic kidney disease, coronary heart disease, and stroke risk, and are a leading dietary cause of deaths globally. Average sodium consumption in the United States exceeds 3,400 mg/day, with 95.8% of men and 77.8% of women exceeding the Chronic Disease Risk Reduction intake of 2,300 mg/day. The 2026 ACC recommends limiting sodium to less than 2,300 mg/day, with a goal of less than 1,500 mg/day for greater benefit. Most dietary sodium comes from processed, packaged, and restaurant foods — the top sources are pizza, breads, processed meats, soups, burgers, and savory snacks. Ultra-processed foods more broadly — including sugar-sweetened beverages, packaged snacks, and processed meats — are associated with increased cardiovascular risk. A short-term randomized clinical trial demonstrated that diets high in ultra-processed foods increase caloric intake and weight gain independent of macronutrient composition.",
+      "sources": [
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        },
+        {
+          "label": "NHLBI: DASH Eating Plan",
+          "url": "https://www.nhlbi.nih.gov/health/dash-eating-plan"
+        }
+      ]
+    },
+    {
+      "title": "Choose Omega-3-Rich Fish Over Red and Processed Meats",
+      "content": "Large prospective studies show that higher intake of red and processed meats is associated with increased all-cause and cardiovascular mortality, while higher plant protein intake is associated with reduced risk. Processed meats contain sodium, nitrates, and nitrites associated with hypertension, and high-temperature cooking of meats generates compounds that promote oxidative stress and inflammation. Dietary patterns containing fish are associated with modestly lower risks of coronary heart disease and cardiovascular mortality. Omega-3 fatty acids (EPA and DHA) from fatty fish have favorable effects on triglyceride levels and inflammation. The Cleveland Clinic Mediterranean diet recommends 3 servings of omega-3-rich fish per week (3–4 oz each), preferring salmon, sardines, herring, tuna, and mackerel. The 2026 ACC Scientific Statement notes that routine omega-3 supplementation is not recommended for primary prevention of CVD — benefits come from fish as part of an overall healthy dietary pattern, not supplements alone.",
+      "sources": [
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        },
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        }
+      ]
+    }
+  ],
+  "foods": [
+    {
+      "id": "salmon",
+      "name": "Salmon",
+      "serving": "3–4 oz",
+      "frequency": "3 servings of fish per week",
+      "notes": "One of the omega-3-rich fish specifically recommended by the Cleveland Clinic Mediterranean diet guidance. Omega-3 fatty acids (EPA and DHA) have favorable effects on triglycerides and inflammation. The Mayo Clinic DASH sample menu features 4 oz of salmon with a maple balsamic glaze as a heart-healthy dinner. Prepare by baking, broiling, or grilling — avoid frying.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        },
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        }
+      ]
+    },
+    {
+      "id": "extra-virgin-olive-oil",
+      "name": "Extra-Virgin Olive Oil",
+      "serving": "1 tablespoon",
+      "frequency": "1–4 servings daily",
+      "notes": "The primary fat of the Mediterranean diet. EVOO provides better healthy fat ratios and higher antioxidant content than regular olive oil. The PREDIMED trial — which used EVOO as a key intervention component — demonstrated significant reductions in major cardiovascular events. Use in place of butter, margarine, or cream sauces. The Mayo Clinic DASH Day 2 lunch uses 1 tablespoon of olive oil in the salad dressing.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    },
+    {
+      "id": "walnuts",
+      "name": "Walnuts",
+      "serving": "¼ cup (about 1 oz)",
+      "frequency": "At least 3 servings of nuts per week",
+      "notes": "Specifically listed among preferred nuts in the Cleveland Clinic Mediterranean diet guidance (alongside almonds and hazelnuts). The PREDIMED trial used nuts — including walnuts — as the key supplement in the Mediterranean diet intervention arm that reduced major cardiovascular events. Choose raw, unsalted, or dry-roasted varieties. Walnuts are particularly rich in alpha-linolenic acid, a plant-based omega-3 fatty acid.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    },
+    {
+      "id": "oats",
+      "name": "Oats (Whole Grain)",
+      "serving": "1 cup cooked",
+      "frequency": "Part of 6–8 daily grain servings (DASH) or 3–6 daily whole-grain servings (Mediterranean)",
+      "notes": "The Mayo Clinic DASH Day 1 breakfast features 1 cup of oatmeal without salt. Whole grains including oats provide fiber, vitamins, minerals, and bioactive compounds associated with lower risk of obesity, diabetes, and CVD. Higher consumption of whole grains is consistently associated with lower cardiovascular mortality in large cohort studies and randomized trials.",
+      "sources": [
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    },
+    {
+      "id": "lentils",
+      "name": "Lentils",
+      "serving": "½ cup cooked",
+      "frequency": "3 servings of legumes per week",
+      "notes": "Legumes are highlighted by both the 2026 ACC Scientific Statement and the Cleveland Clinic as among the best sources of dietary fiber and plant protein for cardiovascular health. They provide fiber, unsaturated fatty acids, and phytochemicals that reduce LDL cholesterol, improve insulin sensitivity, and lower inflammation. Add to soups, salads, and pasta dishes or serve as a main alongside fish.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    },
+    {
+      "id": "spinach",
+      "name": "Spinach",
+      "serving": "1 cup raw or ½ cup cooked",
+      "frequency": "At least 3–5 vegetable servings daily",
+      "notes": "Featured prominently in the Mayo Clinic DASH diet menus — Day 2 includes a 3-cup spinach salad at lunch and ½ cup cooked spinach in the dinner pasta. Leafy greens like spinach provide potassium and magnesium, two nutrients that support healthy blood pressure and are highlighted by both the NHLBI DASH plan and the 2026 ACC Scientific Statement.",
+      "sources": [
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        },
+        {
+          "label": "NHLBI: DASH Eating Plan",
+          "url": "https://www.nhlbi.nih.gov/health/dash-eating-plan"
+        }
+      ]
+    },
+    {
+      "id": "almonds",
+      "name": "Almonds",
+      "serving": "¼ cup (about 1 oz)",
+      "frequency": "At least 3 servings of nuts per week",
+      "notes": "Listed alongside walnuts and hazelnuts as preferred nuts in the Cleveland Clinic Mediterranean diet guidance. The Mayo Clinic DASH Day 3 snack includes ¼ cup of almonds paired with a peach. Nuts count toward the DASH diet's weekly target of 4–5 servings of nuts, seeds, and dry beans. Choose unsalted varieties to keep sodium intake in check.",
+      "sources": [
+        {
+          "label": "Cleveland Clinic: Mediterranean Diet",
+          "url": "https://my.clevelandclinic.org/health/articles/16037-mediterranean-diet"
+        },
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        }
+      ]
+    },
+    {
+      "id": "avocado",
+      "name": "Avocado",
+      "serving": "½ to 1 medium avocado",
+      "frequency": "As part of daily healthy fat servings",
+      "notes": "The Mayo Clinic DASH Day 3 breakfast features 1 medium avocado on whole-wheat toast with a poached egg and sundried tomatoes. Avocado is a source of monounsaturated fat — the same class of healthy fat found in olive oil — which the 2026 ACC Scientific Statement and Cleveland Clinic both identify as beneficial for cardiovascular health when it replaces saturated fat in the diet.",
+      "sources": [
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        },
+        {
+          "label": "2026 ACC Scientific Statement on Nutrition and CVD",
+          "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.08.025"
+        }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "roasted-salmon-maple-balsamic",
+      "title": "Roasted Salmon with Maple Balsamic Glaze and Wild Rice",
+      "description": "The heart-healthy dinner from the Mayo Clinic DASH diet Day 1 sample menu. Salmon provides omega-3 fatty acids (EPA and DHA) with favorable effects on triglycerides and inflammation, while the whole-grain and wild rice blend adds dietary fiber. Green beans and red bell peppers contribute potassium and antioxidants. This meal exemplifies the Mediterranean and DASH dietary patterns: omega-3-rich fish, whole grains, and vegetables with no added sodium.",
+      "servings": 1,
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "ingredients": [
+        { "foodId": "salmon", "name": "Salmon fillet", "quantity": "4 oz" },
+        { "foodId": null, "name": "Maple syrup", "quantity": "1 teaspoon" },
+        { "foodId": null, "name": "Balsamic vinegar", "quantity": "1 tablespoon" },
+        { "foodId": null, "name": "Whole-grain and wild rice blend", "quantity": "1 cup cooked" },
+        { "foodId": null, "name": "Green beans", "quantity": "½ cup" },
+        { "foodId": null, "name": "Red bell pepper, sliced", "quantity": "¼ cup" },
+        { "foodId": null, "name": "Canned pear slices in juice (no syrup)", "quantity": "½ cup" }
+      ],
+      "instructions": [
+        "Preheat oven to 400°F (200°C). Line a small baking sheet with parchment paper.",
+        "In a small bowl, whisk together maple syrup and balsamic vinegar to make the glaze.",
+        "Place salmon fillet on the prepared baking sheet. Brush the top generously with the maple balsamic glaze.",
+        "Roast for 12–15 minutes, until salmon is opaque and flakes easily with a fork.",
+        "While salmon roasts, cook the whole-grain and wild rice blend according to package directions.",
+        "Steam or lightly sauté green beans and sliced red bell pepper until just tender, about 5 minutes.",
+        "Serve salmon alongside the rice, green beans and peppers, and pear slices."
+      ],
+      "nutritionPerServing": null,
+      "sources": [
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus (Day 1 Dinner)",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        }
+      ]
+    },
+    {
+      "id": "spinach-salad-chicken-pear-olive-oil",
+      "title": "Spinach Salad with Chicken, Pear, and Olive Oil Dressing",
+      "description": "The heart-healthy lunch from the Mayo Clinic DASH diet Day 2 sample menu. Fresh spinach provides potassium and magnesium for blood pressure support, the olive oil dressing supplies heart-healthy monounsaturated fat, pear and mandarin oranges add fiber and natural sweetness, and lean chicken provides low-saturated-fat protein. Goat cheese contributes calcium while keeping saturated fat modest. Served with a whole-wheat roll for added fiber.",
+      "servings": 1,
+      "prepMinutes": 10,
+      "cookMinutes": 0,
+      "ingredients": [
+        { "foodId": "spinach", "name": "Fresh spinach leaves", "quantity": "3 cups" },
+        { "foodId": null, "name": "Pear, sliced", "quantity": "1 medium" },
+        { "foodId": null, "name": "Canned mandarin oranges (in juice, drained)", "quantity": "½ cup" },
+        { "foodId": "extra-virgin-olive-oil", "name": "Olive oil", "quantity": "1 tablespoon" },
+        { "foodId": null, "name": "Red wine vinegar", "quantity": "1 tablespoon" },
+        { "foodId": null, "name": "Goat cheese, crumbled", "quantity": "1 oz" },
+        { "foodId": null, "name": "Cooked chicken breast, sliced", "quantity": "3 oz" },
+        { "foodId": null, "name": "Small whole-wheat roll", "quantity": "1 roll" }
+      ],
+      "instructions": [
+        "In a large bowl, combine fresh spinach, sliced pear, and drained mandarin oranges.",
+        "In a small bowl, whisk together olive oil and red wine vinegar to make the dressing.",
+        "Drizzle the dressing over the salad and toss gently to coat.",
+        "Top the salad with sliced cooked chicken breast and crumbled goat cheese.",
+        "Serve immediately with the whole-wheat roll on the side."
+      ],
+      "nutritionPerServing": null,
+      "sources": [
+        {
+          "label": "Mayo Clinic: DASH Diet Sample Menus (Day 2 Lunch)",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/dash-diet/art-20047110"
+        }
+      ]
+    }
+  ]
+}
