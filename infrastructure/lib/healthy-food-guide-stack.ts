@@ -5,6 +5,10 @@ import * as apigwv2 from 'aws-cdk-lib/aws-apigatewayv2';
 import * as apigwv2integrations from 'aws-cdk-lib/aws-apigatewayv2-integrations';
 import * as logs from 'aws-cdk-lib/aws-logs';
 import * as iam from 'aws-cdk-lib/aws-iam';
+import * as sns from 'aws-cdk-lib/aws-sns';
+import * as snsSubscriptions from 'aws-cdk-lib/aws-sns-subscriptions';
+import * as cloudwatch from 'aws-cdk-lib/aws-cloudwatch';
+import * as cloudwatchActions from 'aws-cdk-lib/aws-cloudwatch-actions';
 import * as path from 'path';
 import { Construct } from 'constructs';
 
@@ -88,12 +92,44 @@ export class HealthyFoodGuideStack extends cdk.Stack {
     httpApi.addRoutes({ path: '/events', methods: [apigwv2.HttpMethod.POST], integration: lambdaIntegration });
     httpApi.addRoutes({ path: '/comments/{recipeId}', methods: [apigwv2.HttpMethod.GET, apigwv2.HttpMethod.POST], integration: lambdaIntegration });
 
+    // Throttle the default stage: 3 req/sec steady, burst up to 10
+    const cfnStage = httpApi.defaultStage?.node.defaultChild as apigwv2.CfnStage;
+    cfnStage.defaultRouteSettings = {
+      throttlingRateLimit: 3,
+      throttlingBurstLimit: 10,
+    };
+
     // --- CloudWatch Log Group for API Gateway ---
     new logs.LogGroup(this, 'ApiGwLogGroup', {
       logGroupName: `/aws/apigateway/healthy-food-guide`,
       retention: logs.RetentionDays.ONE_WEEK,
       removalPolicy: cdk.RemovalPolicy.DESTROY,
     });
+
+    // --- Billing Alarm ---
+    // SNS topic → email → CloudWatch alarm triggers when estimated charges exceed $5
+    const billingTopic = new sns.Topic(this, 'BillingAlarmTopic', {
+      topicName: 'healthy-food-guide-billing-alarm',
+    });
+    billingTopic.addSubscription(
+      new snsSubscriptions.EmailSubscription('danielalejandrosud25@gmail.com')
+    );
+    const billingAlarm = new cloudwatch.Alarm(this, 'BillingAlarm', {
+      alarmName: 'healthy-food-guide-billing-5usd',
+      alarmDescription: 'Alert when estimated AWS charges exceed $5',
+      metric: new cloudwatch.Metric({
+        namespace: 'AWS/Billing',
+        metricName: 'EstimatedCharges',
+        dimensionsMap: { Currency: 'USD' },
+        statistic: 'Maximum',
+        period: cdk.Duration.hours(6),
+      }),
+      threshold: 5,
+      evaluationPeriods: 1,
+      comparisonOperator: cloudwatch.ComparisonOperator.GREATER_THAN_OR_EQUAL_TO_THRESHOLD,
+      treatMissingData: cloudwatch.TreatMissingData.NOT_BREACHING,
+    });
+    billingAlarm.addAlarmAction(new cloudwatchActions.SnsAction(billingTopic));
 
     // --- Output ---
     new cdk.CfnOutput(this, 'ApiBaseUrl', {
